@@ -1,5 +1,5 @@
----
+
 [webservers]
-vagtest1 ansible_host=127.0.0.1 ansible_port=2222
-vagtest2 ansible_host=127.0.0.1 ansible_port=2200
-vagtest3 ansible_host=127.0.0.1 ansible_port=2201
+vagtest1 ansible_host=127.0.0.1 ansible_port=2222 color=red
+vagtest2 ansible_host=127.0.0.1 ansible_port=2200 color=blue
+vagtest3 ansible_host=127.0.0.1 ansible_port=2201 color=white

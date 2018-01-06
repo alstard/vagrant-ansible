@@ -6,7 +6,6 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
-    # The most common configuration options are documented and commented below.
     # For a complete reference, please see the online documentation at
     # https://docs.vagrantup.com.
 
@@ -15,25 +14,20 @@ Vagrant.configure("2") do |config|
 
     ### 3 VMs please
     config.vm.define "vagtest1" do |vagtest1|
-        vagtest1.vm.box = "ubuntu/xenial64"
-        # NOTE: This will enable public access to the opened port
-        # config.vm.network "forwarded_port", guest: 80, host: 8080
+        vagtest1.vm.box = "ubuntu/trusty64"
+
         vagtest1.vm.network "forwarded_port", guest: 80, host: 8080
         vagtest1.vm.network "forwarded_port", guest: 443, host: 8443
     end
     
     config.vm.define "vagtest2" do |vagtest2|
-        vagtest2.vm.box = "ubuntu/xenial64"
-        # NOTE: This will enable public access to the opened port
-        # config.vm.network "forwarded_port", guest: 80, host: 8080
+        vagtest2.vm.box = "ubuntu/trusty64"
         vagtest2.vm.network "forwarded_port", guest: 80, host: 8081
         vagtest2.vm.network "forwarded_port", guest: 443, host: 8444
     end
     
     config.vm.define "vagtest3" do |vagtest3|
-        vagtest3.vm.box = "ubuntu/xenial64"
-        # NOTE: This will enable public access to the opened port
-        # config.vm.network "forwarded_port", guest: 80, host: 8080
+        vagtest3.vm.box = "ubuntu/trusty64"
         vagtest3.vm.network "forwarded_port", guest: 80, host: 8082
         vagtest3.vm.network "forwarded_port", guest: 443, host: 8445
     end
