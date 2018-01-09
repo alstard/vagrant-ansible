@@ -1,0 +1,13 @@
+- name: No tty required for ansible ssh user
+  strategy: debug
+  hosts: webservers
+  tasks:
+    - name: Disable tty for the ansible ssh user via template
+      file: >
+        src=files/disable-requiretty
+        dest=/etc/sudoers.d/disable-requiretty
+        owner=root group=root mode=0440
+        validate='/usr/sbin/visudo -cf %s'
+        state=absent
+      become: True
+
