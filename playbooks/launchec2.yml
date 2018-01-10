@@ -1,0 +1,11 @@
+- name: launch a new instance using some defaults
+  hosts: localhost
+  tasks:
+    - name: Create/Launch the instance (Ubuntu 16 - Xenial) on t2.micro
+      ec2:
+        image: ami-8fd760f6
+        region: eu-west-1
+        instance_type: t2.micro
+        key_name: atd-key-pair
+        group: [ACG-DMZ]
+        instance_tags: { Name: ReTagMe3, Purpose: Training, Environment: Development }

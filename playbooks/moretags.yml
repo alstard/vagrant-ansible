@@ -1,0 +1,16 @@
+- name: Tag existing ec2 instances
+  hosts: localhost
+  strategy: debug
+  vars:
+    # Replace with the list generated from ec2.py
+    ec2iids:
+      - i-004a34f1a391bdb78
+      - i-0dd47b1b176f34d42
+  tasks:
+  - name: Tag dynamically located instances with the following information
+    ec2_tag:
+      region: eu-west-1
+      resource: "{{ item }}"
+      state: present
+      tags: { testingtag: test123 }
+    with_items: "{{ ec2iids }}"

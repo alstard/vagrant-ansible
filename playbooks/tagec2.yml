@@ -1,0 +1,15 @@
+- name: Tag existing ec2 instances - ec2.instances is NOT valid in this context
+  hosts: localhost
+  vars:
+    ec2iids:
+      - i-0e6d41aed67f55f25
+      - i-0f1e7212b7822faaf
+  strategy: debug
+  tasks:
+  - name: Tag known instance with the following information
+    local_action:
+      module: ec2_tag
+      region: eu-west-1
+      state: present
+      tags: { type: ANSIBLE, hosted: AWS, stage: DEV }
+      resource: <<< INSTANCE ID >>>

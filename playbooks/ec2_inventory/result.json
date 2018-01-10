@@ -1,0 +1,323 @@
+{
+  "_meta": {
+    "hostvars": {
+      "34.241.193.132": {
+        "ansible_host": "34.241.193.132", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "1", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "xvda": "vol-00d6e980d811825c8"
+        }, 
+        "ec2_client_token": "", 
+        "ec2_dns_name": "ec2-34-241-193-132.eu-west-1.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-0bbc55b55c616c53b", 
+        "ec2_image_id": "ami-e487179d", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "34.241.193.132", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "atd-key-pair", 
+        "ec2_launch_time": "2018-01-10T13:52:42.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-1c", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-31-143.eu-west-1.compute.internal", 
+        "ec2_private_ip_address": "172.31.31.143", 
+        "ec2_public_dns_name": "ec2-34-241-193-132.eu-west-1.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-1", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/xvda", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-854474fe", 
+        "ec2_security_group_names": "ACG-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-42ac4e0b", 
+        "ec2_tag_Name": "ANSTEST2", 
+        "ec2_tag_Purpose": "Training", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-17a24770"
+      }, 
+      "35.177.235.50": {
+        "ansible_host": "35.177.235.50", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "xvda": "vol-09f0ff4b050d7454e"
+        }, 
+        "ec2_client_token": "NnynA1491479920229", 
+        "ec2_dns_name": "ec2-35-177-235-50.eu-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-0d3c1922ab88ecbb6", 
+        "ec2_image_id": "ami-070f1b63", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "35.177.235.50", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ToolingEC2Key", 
+        "ec2_launch_time": "2017-04-06T11:58:41.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-2a", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-14-16.eu-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.14.16", 
+        "ec2_public_dns_name": "ec2-35-177-235-50.eu-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/xvda", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-abb10ec2", 
+        "ec2_security_group_names": "WEB-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_subnet_id": "subnet-f41edd8f", 
+        "ec2_tag_KeepRunning": "True", 
+        "ec2_tag_Name": "ToolingIncTechRadar", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-eed50b87"
+      }, 
+      "52.56.246.43": {
+        "ansible_host": "52.56.246.43", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "sda1": "vol-012c253c0996e592a"
+        }, 
+        "ec2_client_token": "149129970926432011", 
+        "ec2_dns_name": "ec2-52-56-246-43.eu-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-017f1ad1c981118e2", 
+        "ec2_image_id": "ami-dd4c58b9", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "52.56.246.43", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ArtifactoryEC2Key", 
+        "ec2_launch_time": "2017-04-04T09:56:11.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-2b", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-21-83.eu-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.21.83", 
+        "ec2_public_dns_name": "ec2-52-56-246-43.eu-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/sda1", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-abb10ec2", 
+        "ec2_security_group_names": "WEB-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_subnet_id": "subnet-dd907590", 
+        "ec2_tag_KeepRunning": "True", 
+        "ec2_tag_Name": "Artifactory", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-eed50b87"
+      }, 
+      "54.72.183.111": {
+        "ansible_host": "54.72.183.111", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "xvda": "vol-0139ddb809dfddc78"
+        }, 
+        "ec2_client_token": "", 
+        "ec2_dns_name": "ec2-54-72-183-111.eu-west-1.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-00469ff83a0475f53", 
+        "ec2_image_id": "ami-e487179d", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "54.72.183.111", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "atd-key-pair", 
+        "ec2_launch_time": "2018-01-10T13:52:42.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-1c", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-27-206.eu-west-1.compute.internal", 
+        "ec2_private_ip_address": "172.31.27.206", 
+        "ec2_public_dns_name": "ec2-54-72-183-111.eu-west-1.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-1", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/xvda", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-854474fe", 
+        "ec2_security_group_names": "ACG-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-42ac4e0b", 
+        "ec2_tag_Name": "ANSTEST1", 
+        "ec2_tag_Purpose": "Training", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-17a24770"
+      }
+    }
+  }, 
+  "ami_070f1b63": [
+    "35.177.235.50"
+  ], 
+  "ami_dd4c58b9": [
+    "52.56.246.43"
+  ], 
+  "ami_e487179d": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "ec2": [
+    "54.72.183.111", 
+    "34.241.193.132", 
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "eu-west-1": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "eu-west-1c": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "eu-west-2": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "eu-west-2a": [
+    "35.177.235.50"
+  ], 
+  "eu-west-2b": [
+    "52.56.246.43"
+  ], 
+  "i-00469ff83a0475f53": [
+    "54.72.183.111"
+  ], 
+  "i-017f1ad1c981118e2": [
+    "52.56.246.43"
+  ], 
+  "i-0bbc55b55c616c53b": [
+    "34.241.193.132"
+  ], 
+  "i-0d3c1922ab88ecbb6": [
+    "35.177.235.50"
+  ], 
+  "key_ArtifactoryEC2Key": [
+    "52.56.246.43"
+  ], 
+  "key_ToolingEC2Key": [
+    "35.177.235.50"
+  ], 
+  "key_atd_key_pair": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "platform_undefined": [
+    "54.72.183.111", 
+    "34.241.193.132", 
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "security_group_ACG_DMZ": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "security_group_WEB_DMZ": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "tag_KeepRunning_True": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "tag_Name_ANSTEST1": [
+    "54.72.183.111"
+  ], 
+  "tag_Name_ANSTEST2": [
+    "34.241.193.132"
+  ], 
+  "tag_Name_Artifactory": [
+    "52.56.246.43"
+  ], 
+  "tag_Name_ToolingIncTechRadar": [
+    "35.177.235.50"
+  ], 
+  "tag_Purpose_Training": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "type_t2_micro": [
+    "54.72.183.111", 
+    "34.241.193.132", 
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "vpc_id_vpc_17a24770": [
+    "54.72.183.111", 
+    "34.241.193.132"
+  ], 
+  "vpc_id_vpc_eed50b87": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ]
+}
