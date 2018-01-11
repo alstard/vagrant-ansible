@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "hostvars": {
+      "34.242.87.142": {
+        "ansible_host": "34.242.87.142", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "sda1": "vol-0ab5d242d1378562c"
+        }, 
+        "ec2_client_token": "151488725999031928", 
+        "ec2_dns_name": "ec2-34-242-87-142.eu-west-1.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-00b8db214d4c59aeb", 
+        "ec2_image_id": "ami-192a9460", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "34.242.87.142", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "vpc-run-2", 
+        "ec2_launch_time": "2018-01-10T18:14:16.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-1a", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-35-243.eu-west-1.compute.internal", 
+        "ec2_private_ip_address": "172.31.35.243", 
+        "ec2_public_dns_name": "ec2-34-242-87-142.eu-west-1.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-1", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/sda1", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-c192a3ba", 
+        "ec2_security_group_names": "CentOS 7 -x86_64- - with Updates HVM-1708_11-AutogenByAWSMP-1", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-7d1d3125", 
+        "ec2_tag_Name": "Jenkins-dev", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-17a24770"
+      }, 
+      "35.176.205.164": {
+        "ansible_host": "35.176.205.164", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "sda1": "vol-05d6cf015a34ddfd6"
+        }, 
+        "ec2_client_token": "", 
+        "ec2_dns_name": "ec2-35-176-205-164.eu-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-042e3ec806da00f6a", 
+        "ec2_image_id": "ami-951201f1", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "35.176.205.164", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "vpc-run-1", 
+        "ec2_launch_time": "2018-01-10T18:35:52.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-2a", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-10-0-20-182.eu-west-2.compute.internal", 
+        "ec2_private_ip_address": "10.0.20.182", 
+        "ec2_public_dns_name": "ec2-35-176-205-164.eu-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/sda1", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-6d8eed05", 
+        "ec2_security_group_names": "public", 
+        "ec2_sourceDestCheck": "false", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-647a431f", 
+        "ec2_tag_Environment": "test", 
+        "ec2_tag_Name": "k8s-bastion", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-3e7a7257"
+      }, 
+      "35.177.235.50": {
+        "ansible_host": "35.177.235.50", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "xvda": "vol-09f0ff4b050d7454e"
+        }, 
+        "ec2_client_token": "NnynA1491479920229", 
+        "ec2_dns_name": "ec2-35-177-235-50.eu-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-0d3c1922ab88ecbb6", 
+        "ec2_image_id": "ami-070f1b63", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "35.177.235.50", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ToolingEC2Key", 
+        "ec2_launch_time": "2017-04-06T11:58:41.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-2a", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-14-16.eu-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.14.16", 
+        "ec2_public_dns_name": "ec2-35-177-235-50.eu-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/xvda", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-abb10ec2", 
+        "ec2_security_group_names": "WEB-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_subnet_id": "subnet-f41edd8f", 
+        "ec2_tag_KeepRunning": "True", 
+        "ec2_tag_Name": "ToolingIncTechRadar", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-eed50b87"
+      }, 
+      "52.56.246.43": {
+        "ansible_host": "52.56.246.43", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "717840979392", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "sda1": "vol-012c253c0996e592a"
+        }, 
+        "ec2_client_token": "149129970926432011", 
+        "ec2_dns_name": "ec2-52-56-246-43.eu-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-017f1ad1c981118e2", 
+        "ec2_image_id": "ami-dd4c58b9", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "52.56.246.43", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ArtifactoryEC2Key", 
+        "ec2_launch_time": "2017-04-04T09:56:11.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "eu-west-2b", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-21-83.eu-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.21.83", 
+        "ec2_public_dns_name": "ec2-52-56-246-43.eu-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "eu-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/sda1", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-abb10ec2", 
+        "ec2_security_group_names": "WEB-DMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_subnet_id": "subnet-dd907590", 
+        "ec2_tag_KeepRunning": "True", 
+        "ec2_tag_Name": "Artifactory", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-eed50b87"
+      }
+    }
+  }, 
+  "ami_070f1b63": [
+    "35.177.235.50"
+  ], 
+  "ami_192a9460": [
+    "34.242.87.142"
+  ], 
+  "ami_951201f1": [
+    "35.176.205.164"
+  ], 
+  "ami_dd4c58b9": [
+    "52.56.246.43"
+  ], 
+  "ec2": [
+    "34.242.87.142", 
+    "52.56.246.43", 
+    "35.176.205.164", 
+    "35.177.235.50"
+  ], 
+  "eu-west-1": [
+    "34.242.87.142"
+  ], 
+  "eu-west-1a": [
+    "34.242.87.142"
+  ], 
+  "eu-west-2": [
+    "52.56.246.43", 
+    "35.176.205.164", 
+    "35.177.235.50"
+  ], 
+  "eu-west-2a": [
+    "35.176.205.164", 
+    "35.177.235.50"
+  ], 
+  "eu-west-2b": [
+    "52.56.246.43"
+  ], 
+  "i-00b8db214d4c59aeb": [
+    "34.242.87.142"
+  ], 
+  "i-017f1ad1c981118e2": [
+    "52.56.246.43"
+  ], 
+  "i-042e3ec806da00f6a": [
+    "35.176.205.164"
+  ], 
+  "i-0d3c1922ab88ecbb6": [
+    "35.177.235.50"
+  ], 
+  "key_ArtifactoryEC2Key": [
+    "52.56.246.43"
+  ], 
+  "key_ToolingEC2Key": [
+    "35.177.235.50"
+  ], 
+  "key_vpc_run_1": [
+    "35.176.205.164"
+  ], 
+  "key_vpc_run_2": [
+    "34.242.87.142"
+  ], 
+  "platform_undefined": [
+    "34.242.87.142", 
+    "52.56.246.43", 
+    "35.176.205.164", 
+    "35.177.235.50"
+  ], 
+  "security_group_CentOS_7__x86_64____with_Updates_HVM_1708_11_AutogenByAWSMP_1": [
+    "34.242.87.142"
+  ], 
+  "security_group_WEB_DMZ": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "security_group_public": [
+    "35.176.205.164"
+  ], 
+  "tag_Environment_test": [
+    "35.176.205.164"
+  ], 
+  "tag_KeepRunning_True": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ], 
+  "tag_Name_Artifactory": [
+    "52.56.246.43"
+  ], 
+  "tag_Name_Jenkins_dev": [
+    "34.242.87.142"
+  ], 
+  "tag_Name_ToolingIncTechRadar": [
+    "35.177.235.50"
+  ], 
+  "tag_Name_k8s_bastion": [
+    "35.176.205.164"
+  ], 
+  "type_t2_micro": [
+    "34.242.87.142", 
+    "52.56.246.43", 
+    "35.176.205.164", 
+    "35.177.235.50"
+  ], 
+  "vpc_id_vpc_17a24770": [
+    "34.242.87.142"
+  ], 
+  "vpc_id_vpc_3e7a7257": [
+    "35.176.205.164"
+  ], 
+  "vpc_id_vpc_eed50b87": [
+    "52.56.246.43", 
+    "35.177.235.50"
+  ]
+}

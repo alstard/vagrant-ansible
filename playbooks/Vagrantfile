@@ -1,35 +1,19 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# All Vagrant configuration is done below. The "2" in Vagrant.configure
-# configures the configuration version (we support older styles for
-# backwards compatibility). Please don't change it unless you know what
-# you're doing.
 Vagrant.configure("2") do |config|
-    # For a complete reference, please see the online documentation at
-    # https://docs.vagrantup.com.
-
-    ### Use same ssh key for all machines
-    config.ssh.insert_key = false
-
-    ### 3 VMs please
-    config.vm.define "vagtest1" do |vagtest1|
-        vagtest1.vm.box = "ubuntu/trusty64"
-
-        vagtest1.vm.network "forwarded_port", guest: 80, host: 8080
-        vagtest1.vm.network "forwarded_port", guest: 443, host: 8443
+    config.vm.define "postgres" do |postgres|
+        postgres.vm.box = "ubuntu/trusty64"
+        postgres.vm.network "private_network", ip: "192.168.33.9"
+        postgres.vm.provider "virtualbox" do |v|
+            v.memory = 1024
+        end
     end
-    
-    config.vm.define "vagtest2" do |vagtest2|
-        vagtest2.vm.box = "ubuntu/trusty64"
-        vagtest2.vm.network "forwarded_port", guest: 80, host: 8081
-        vagtest2.vm.network "forwarded_port", guest: 443, host: 8444
-    end
-    
-    config.vm.define "vagtest3" do |vagtest3|
-        vagtest3.vm.box = "ubuntu/trusty64"
-        vagtest3.vm.network "forwarded_port", guest: 80, host: 8082
-        vagtest3.vm.network "forwarded_port", guest: 443, host: 8445
+    config.vm.define "ghost" do |ghost|
+        ghost.vm.box = "ubuntu/trusty64"
+        ghost.vm.network "private_network", ip: "192.168.33.10"
+        ghost.vm.provider "virtualbox" do |v|
+            v.memory = 1024
+        end
     end
 end
-  

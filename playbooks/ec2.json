@@ -1,0 +1,100 @@
+{
+    "_meta": {
+      "hostvars": {
+        "52.210.122.227": {
+          "ansible_host": "52.210.122.227",
+          "ec2__in_monitoring_element": false,
+          "ec2_account_id": "717840979392",
+          "ec2_ami_launch_index": "0",
+          "ec2_architecture": "x86_64",
+          "ec2_block_devices": {
+            "sda1": "vol-0beb3b0e7a0caa900"
+          },
+          "ec2_client_token": "",
+          "ec2_dns_name": "ec2-52-210-122-227.eu-west-1.compute.amazonaws.com",
+          "ec2_ebs_optimized": false,
+          "ec2_eventsSet": "",
+          "ec2_group_name": "",
+          "ec2_hypervisor": "xen",
+          "ec2_id": "i-0cd8bbd75924eaa23",
+          "ec2_image_id": "ami-8fd760f6",
+          "ec2_instance_profile": "",
+          "ec2_instance_type": "t2.micro",
+          "ec2_ip_address": "52.210.122.227",
+          "ec2_item": "",
+          "ec2_kernel": "",
+          "ec2_key_name": "atd-key-pair",
+          "ec2_launch_time": "2018-01-10T21:04:27.000Z",
+          "ec2_monitored": false,
+          "ec2_monitoring": "",
+          "ec2_monitoring_state": "disabled",
+          "ec2_persistent": false,
+          "ec2_placement": "eu-west-1c",
+          "ec2_platform": "",
+          "ec2_previous_state": "",
+          "ec2_previous_state_code": 0,
+          "ec2_private_dns_name": "ip-172-31-27-226.eu-west-1.compute.internal",
+          "ec2_private_ip_address": "172.31.27.226",
+          "ec2_public_dns_name": "ec2-52-210-122-227.eu-west-1.compute.amazonaws.com",
+          "ec2_ramdisk": "",
+          "ec2_reason": "",
+          "ec2_region": "eu-west-1",
+          "ec2_requester_id": "",
+          "ec2_root_device_name": "/dev/sda1",
+          "ec2_root_device_type": "ebs",
+          "ec2_security_group_ids": "sg-854474fe",
+          "ec2_security_group_names": "ACG-DMZ",
+          "ec2_sourceDestCheck": "true",
+          "ec2_spot_instance_request_id": "",
+          "ec2_state": "running",
+          "ec2_state_code": 16,
+          "ec2_state_reason": "",
+          "ec2_subnet_id": "subnet-42ac4e0b",
+          "ec2_tag_Environment": "Development",
+          "ec2_tag_Name": "ReTagMe3",
+          "ec2_tag_Purpose": "Training",
+          "ec2_virtualization_type": "hvm",
+          "ec2_vpc_id": "vpc-17a24770"
+        }
+      }
+    },
+    "ami_8fd760f6": [
+      "52.210.122.227"
+    ],
+    "ec2": [
+      "52.210.122.227"
+    ],
+    "eu-west-1": [
+      "52.210.122.227"
+    ],
+    "eu-west-1c": [
+      "52.210.122.227"
+    ],
+    "i-0cd8bbd75924eaa23": [
+      "52.210.122.227"
+    ],
+    "key_atd_key_pair": [
+      "52.210.122.227"
+    ],
+    "platform_undefined": [
+      "52.210.122.227"
+    ],
+    "security_group_ACG_DMZ": [
+      "52.210.122.227"
+    ],
+    "tag_Environment_Development": [
+      "52.210.122.227"
+    ],
+    "tag_Name_ReTagMe3": [
+      "52.210.122.227"
+    ],
+    "tag_Purpose_Training": [
+      "52.210.122.227"
+    ],
+    "type_t2_micro": [
+      "52.210.122.227"
+    ],
+    "vpc_id_vpc_17a24770": [
+      "52.210.122.227"
+    ]
+  }

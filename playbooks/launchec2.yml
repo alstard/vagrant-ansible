@@ -9,3 +9,5 @@
         key_name: atd-key-pair
         group: [ACG-DMZ]
         instance_tags: { Name: ReTagMe3, Purpose: Training, Environment: Development }
+        wait: yes
+      register: ec2
